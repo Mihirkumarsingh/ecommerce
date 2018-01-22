@@ -4,8 +4,8 @@ include "header.php" ;
 ?>
 <br><br><br>
 
-<div class="panel panel-primary" style="width:40%;margin:0 auto;">
-  <div class="panel-heading" style="text-align:center;" ><h2>Admin Login</h2></div>
+<div class="panel panel-primary" style="width:40%;margin:0 auto;box-shadow: 10px 10px 5px grey;">
+  <div class="panel-heading" style="text-align:center;background-color: #232f3e;" ><h2>Admin Login</h2></div>
   <div class="panel-body">
   <br>
 <div class="container" style="width:50%;" >
@@ -27,7 +27,7 @@ include "header.php" ;
 	
  	<tr>
       <td>&nbsp;</td>
-      <td><input class="btn btn-primary" name="submit" type="submit" onclick="return validate();" value="Login" class="button1"></td>
+      <td><input class="btn btn-primary" name="submit" type="submit" onclick="return validate();" value="Login" class="button1" style="background-color:#232f3e;" ></td>
     </tr>
   </form>
 
